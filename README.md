@@ -43,7 +43,7 @@ kubectl rollout restart deployment app
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](./assets/architecture.png)
+See [ARCHITECTURE.md](./ARCHITECTURE.md) for detailed architecture diagrams and explanations.
 
 ### How ConfigMaps Work Internally
 
@@ -118,13 +118,14 @@ envFrom:
 
 ## 🚀 Hands-On Labs
 
-### Lab 1: Create EKS Cluster
-### Lab 2: ConfigMap Type A (Environment Variables)
-### Lab 3: ConfigMap Type B (Volume Mounts)
-### Lab 4: ConfigMap Type C (Bulk Injection)
-### Lab 5: Real-World Multi-Environment Setup
+1. **[Lab 1: Create EKS Cluster](./labs/lab1-eks-setup.md)** - Set up AWS EKS cluster
+2. **[Lab 2: Type A - Environment Variables](./labs/lab2-type-a-env.md)** - Single key injection
+3. **[Lab 3: Type B - Volume Mounts](./labs/lab3-type-b-volume.md)** - Config files as volumes
+4. **[Lab 4: Type C - Bulk Injection](./labs/lab4-type-c-envfrom.md)** - Auto-inject all keys
+5. **[Lab 5: Multi-Environment Setup](./labs/lab5-multi-env.md)** - Real-world deployment
+6. **[Lab 6: Immutable ConfigMaps](./labs/lab6-immutable-configmap.md)** - Production safety
 
-See [labs/](./labs/) directory for detailed instructions.
+See [labs/](./labs/) directory for all labs.
 
 ## 🌍 Real-World Scenarios
 
@@ -228,6 +229,12 @@ kubectl get cm my-config -o yaml
 # Use in deployment
 kubectl apply -f manifests/deployment-envfrom.yaml
 ```
+
+📖 **New to ConfigMaps?** Start with [QUICK-START.md](./QUICK-START.md)
+
+🔖 **Need quick reference?** Check [CHEATSHEET.md](./CHEATSHEET.md)
+
+🧠 **Want to understand deeply?** Read [MINDMAP.md](./MINDMAP.md)
 
 ## 📖 Additional Resources
 
