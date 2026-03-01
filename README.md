@@ -1,6 +1,6 @@
 # Kubernetes ConfigMaps - Complete Guide
 
-![ConfigMaps](./assets/configmaps-banner.png)
+![ConfigMaps](./Configmaps.png)
 
 ## 🎯 Project Overview
 
