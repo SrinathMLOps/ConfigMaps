@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-bulk
+  namespace: demo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: myapp-bulk
+  template:
+    metadata:
+      labels:
+        app: myapp-bulk
+    spec:
+      containers:
+      - name: app
+        image: busybox:latest
+        command: ['sh', '-c', 'env | sort && sleep 3600']
+        envFrom:
+        - configMapRef:
+            name: app-config
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
