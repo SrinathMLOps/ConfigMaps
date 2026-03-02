@@ -251,7 +251,7 @@ Code Change → Build Image → Push Registry → Update Deployment
                     Total: 25 minutes
 ```
 
-### With ConfigMap
+### With ConfigMap....
 ```
 Edit ConfigMap → Restart Pods
       ↓              ↓
