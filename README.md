@@ -63,7 +63,7 @@ Developer (kubectl)
 
 ## 🎨 The 3 Types of ConfigMap Consumption
 
-### Type A: env (Single Key → Single Env Var)
+## Type A: env (Single Key → Single Env Var)
 Map specific keys to environment variables.
 
 ```yaml
