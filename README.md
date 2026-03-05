@@ -41,7 +41,7 @@ kubectl rollout restart deployment app
 ```
 ✅ No rebuild, no new image, instant update
 
-## 🏗️ Architecture
+### 🏗️ Architecture
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for detailed architecture diagrams and explanations.
 
