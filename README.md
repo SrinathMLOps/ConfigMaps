@@ -16,7 +16,7 @@ This repository provides a comprehensive, hands-on guide to understanding and im
 - [Real-World Scenarios](#real-world-scenarios)
 - [Best Practices](#best-practices)
 
-## 🔍 What are ConfigMaps?
+### 🔍 What are ConfigMaps?
 
 A ConfigMap stores **non-secret configuration data** outside your container image, enabling you to:
 
