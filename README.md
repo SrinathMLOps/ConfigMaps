@@ -2,7 +2,7 @@
 
 ![ConfigMaps](./Configmaps.png)
 
-## 🎯 Project Overview
+### 🎯 Project Overview
 
 This repository provides a comprehensive, hands-on guide to understanding and implementing Kubernetes ConfigMaps on AWS EKS. Learn how to separate configuration from application code following cloud-native best practices.
 
