@@ -6,7 +6,7 @@
 
 This repository provides a comprehensive, hands-on guide to understanding and implementing Kubernetes ConfigMaps on AWS EKS. Learn how to separate configuration from application code following cloud-native best practices.
 
-## 📚 Table of Contents
+### 📚 Table of Contents
 
 - [What are ConfigMaps?](#what-are-configmaps)
 - [Architecture](#architecture)
